@@ -1,1 +1,133 @@
+body {
+  background-color: rgb(61, 61, 61);
+  margin-left: 6.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-vid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.main-text {
+  background-color: rgb(62, 97, 146);
+  position: absolute;
+  top: 55vh;
+  right: 5rem;
+  color: white;
+  width: 30rem;
+  height: 15rem;
+  text-align: justify;
+  padding: 2rem;
+}
+
+.subsites {
+  display: flex;
+  flex-direction: column;
+  margin-top: 97.5vh;
+}
+
+.subsite-header {
+  background-color: rgb(32, 41, 53);
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  height: 150px;
+  width: 100%;
+  line-height: 150px;
+}
+
+.navbar {
+  height: 100vh;
+  width: 6.5rem;
+  position: fixed;
+  background-color: rgb(31, 31, 31);
+  border-right: 2px rgb(156, 220, 237) solid;
+  left: 0;
+  top: 0;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar-item {
+  height: 6.5rem;
+}
+
+.navbar-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-icon {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.navbar-text {
+  visibility: hidden;
+  color: white;
+  font-size: 25px;
+}
+
+.navbar-item:last-child {
+  margin-top: auto;
+}
+
+.navbar-item:hover {
+  background-color: rgb(32, 41, 53);
+  border-left: 5px rgb(41, 100, 182) solid;
+  width: 445px;
+}
+
+.navbar-item:hover .navbar-icon {
+  margin-left: 20px;
+  margin-top: 25px;
+  filter: invert(54%) sepia(14%) saturate(1362%) hue-rotate(110deg) brightness(98%) contrast(90%);
+}
+
+.navbar-item:hover .navbar-text {
+  visibility: visible;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: auto;
+}  
+
+.projects-list {
+  list-style: none;
+  padding-top: 2rem;
+  columns: 2;
+}
+
+.projects-item {
+  width: 75%;
+  margin-bottom: 5rem;
+  border: 5px rgb(156, 220, 237) solid;
+  border-radius: 15px;
+}
+
+.projects-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-text {
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: justify;
+}
+
 /*# sourceMappingURL=main.css.map */

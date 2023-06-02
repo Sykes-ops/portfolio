@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(61, 61, 61);
+    margin: 0;
+    padding: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    background-color: rgb(32, 41, 53);
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+}
+
+.hero-vid {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(31, 31, 31);
+    height: 100vh;
+    width: 100px;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1.5em;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-item {
+    width: 100%;
+}
+
+.navbar-item:hover .navbar-link-text {
+    display: block;
+}
+
+.navbar-item:last-child {
+    margin-top: auto;
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link-text {
+    text-decoration: none;
+    color: white;
+    display: none;
+}
